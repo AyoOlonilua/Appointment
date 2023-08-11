@@ -1,4 +1,4 @@
-# Voting
+# Appointment
 By AYO-OLONILUA AYOMIPE
 
 # TECHNOLOGIES USED
@@ -13,7 +13,7 @@ By AYO-OLONILUA AYOMIPE
 
 # Description
 
-It is used to register vote online. And also for casting votes online.
+It is used to book an appointment for various services.
 
 # Setup/Installation Requirements
 
