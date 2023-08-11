@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(/img/0d5f79174580751.Y3JvcCwxMDUzLDgyMyw0MjIsMzk.webp);
+    background-size: cover;
+    height: 1000px;
+}
+nav {
+    /* position: fixed; */
+}
+button {
+    cursor: pointer;
+}
+#story {
+    display: none;
+}
+.login {
+    background-image: url(/img/0d5f79174580751.Y3JvcCwxMDUzLDgyMyw0MjIsMzk.webp);
+    height: 400px;
+    width: 300px;
+    margin-top: 380px;
+    margin-left: 340px;
+    border-radius: 10px;
+}
+.home {
+    background-image: url(/img/photo-1522241112606-b5d35a468795.jpeg);
+    background-size: cover;
+    height: 1000px;
+}
+.booking{
+    background-image: url(/img/booking-banner-background-design-concept-vector-21511584.webp);
+    background-size: cover;
+    height: 1000px;
+}
+.ticket {
+    background-image: url(/img/booking-banner-background-design-concept-vector-21511584.webp);
+    background-position: -250px;
+    height: 700px;
+    width: 400px;
+    margin-top: 140px;
+    margin-left: 350px;
+    border-radius: 10px;
+}
+.services {
+    background-image: url(/img/prioritize\ appointments.jpeg);
+    background-size: cover;
+    height: 1300px;
+}
+.contact {
+    background-image: url(/img/depositphotos_36042091-stock-photo-contact-us.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+.message {
+    background-image: url(/img/depositphotos_36042091-stock-photo-contact-us.jpg);
+    background-position: 250px;
+    margin-top: 150px;
+    margin-left: 220px;
+}
+.team {
+    background-image: url(/img/—Pngtree—3d\ rendering\ conceptualizing\ business\ leadership_7034181.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+.meet {
+    background-image: url(/img/—Pngtree—3d\ rendering\ conceptualizing\ business\ leadership_7034181.jpg);
+    background-position: 600px;
+    width: 600px;
+    margin-left: 450px;
+}
+.book {
+    margin-top: 500px;
+}
+#home1 {
+    background-color: honeydew;
+}
+#book1 {
+    background-color: honeydew;
+}
+#services1 {
+    background-color: honeydew;
+}
+#contact1 {
+    background-color: honeydew;
+}
+#team1 {
+    background-color: honeydew;
+}
+.space {
+    margin-top: 430px;
+}
+.hotel {
+    height: 250px;
+}

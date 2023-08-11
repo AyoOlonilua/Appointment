@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.7.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+    <title>Book Now</title>
+</head>
+<body class="">
+    <div class="booking">
+        <nav>
+            <div class="container text-center">
+                <div class="bg-primar p-4">
+                    <button class="btn btn-"><a href="home.html" class="btn text-primary font-weight-bold">HOME
+                    </a>
+                    </button>
+                    <button class="btn btn-">
+                        <a href="book.html" id="book1" class="btn text-primary font-weight-bold">BOOK NOW
+                        </a>
+                    </button>
+
+                    <button class="btn btn-">
+                        <a href="services.html" class="btn text-primary font-weight-bold">SERVICES
+                        </a>
+                    </button>
+                    <button class="btn btn-">
+                        <a href="team.html" class="btn text-primary font-weight-bold">TEAM
+                        </a>
+                    </button>
+                    <button class="btn btn-">
+                        <a href="contact.html" class="btn text-primary font-weight-bold">CONTACT US
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="ticket border border-primary">
+                <div class="p-3">
+                    <div class="new">
+                      <form id="formOne">
+                        <h3 class="mt-3 p-3 font-weight-bold text-dark bg-white">Book Now</h3>
+                        
+                        <div class="form-group mt-3 text-dark font-weight-bold">
+                            <label for="name" class="bg-white w-50">Full Name</label>
+                            <input id="name" class="form-control" type="text" placeholder="fullname" required>
+                          </div>
+
+                        <div class="form-group mt-3 text-dark font-weight-bold">
+                          <label for="appointment" class="bg-white w-50">Appointment Description</label>
+                          <input id="appointment" class="form-control" type="text" placeholder="appointment" required>
+                        </div>
+              
+                        <div class="form-group text-dark font-weight-bold">
+                          <label for="location" class="bg-white w-50">Location</label>
+                          <input id="location" class="form-control" type="text" placeholder="location" required>
+                        </div>
+              
+                        <div class="form-group text-dark font-weight-bold">
+                          <label for="date" class="bg-white w-50">Date</label>
+                          <input id="date" class="form-control" type="date" required>
+                        </div>
+              
+                        <div class="form-group text-dark font-weight-bold">
+                            <label for="start" class="bg-white w-50">Start Time</label>
+                            <input id="start" class="form-control" type="time" required>
+                          </div>
+                          
+                        <div class="form-group text-dark font-weight-bold">
+                            <label for="end" class="bg-white w-50">End Time</label>
+                            <input id="end" class="form-control" type="time" required>
+                          </div>
+
+                        <div class="text-center mt-3">
+                            <button type="submit" class="btn btn-dark text-white font-weight-bold">Book</button>
+                        </div>
+                       </form>
+                    </div>
+                </div>
+           
+                <div class="bg-white p-3" id="story">
+                    <div class="p-3 text-center mt-3">
+                        <h3 class="text-dark font-weight-bold">BOOKING SUCCESSFUL</h3>
+                    </div>
+                    <div class="bg-white ml-5">
+                     <p class="text-dark ml-2 mr-5">
+                        Dear <span class="name text-dark font-weight-bold"></span> Your <span class="appointment font-weight-bold text-dark"></span> appointment for <span class="date font-weight-bold text-dark"></span> starting at <span class="start font-weight-bold text-dark"></span> and to end at <span class="end font-weight-bold text-dark"></span> has been booked at <span class="location font-weight-bold text-dark"></span>.
+                     </p>
+
+                     <p class="mt-3">
+                        <h4 class="text-dark font-weight-bold">THANKS FOR YOUR PATRONAGE!</h4>
+                        <h6 class="text-dark font-weight-bold">Refresh the page for another booking.</h6>
+                     </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
